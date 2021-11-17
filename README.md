@@ -27,3 +27,4 @@ $ python3 imgs2pdf.py -h
 - `--vertical`, `-u`: vertical flip (crop -> rotate -> flip)
 - `--reverse`, `-r`: concat images in reverse order
 - `--store`, `-s`: store intermediate outputs
+- `--pdfsettings`, `-p`, specify compression level (-1: all types, 0: original, ..., 5: smallest) (default: -1)
